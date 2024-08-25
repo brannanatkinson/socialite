@@ -8,6 +8,7 @@ class Socialauth extends Component
 {
     public function render()
     {
-        return view('livewire.socialauth');
+        return view('livewire.socialauth')
+            ->layout('layouts.guest');
     }
 }
