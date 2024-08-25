@@ -34,5 +34,10 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'instagrambasic' => [    
+        'client_id' => env('INSTAGRAMBASIC_CLIENT_ID'),  
+        'client_secret' => env('INSTAGRAMBASIC_CLIENT_SECRET'),  
+        'redirect' => env('INSTAGRAMBASIC_REDIRECT_URI') 
+    ],
 
 ];
